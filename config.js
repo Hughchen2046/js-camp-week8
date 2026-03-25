@@ -3,7 +3,7 @@
 // ========================================
 
 // 載入環境變數
-require('dotenv').config({ path: '../../.env' });
+require('dotenv').config({ path: '.env' });
 
 // API 設定（從 .env 讀取）
 const API_PATH = process.env.API_PATH;

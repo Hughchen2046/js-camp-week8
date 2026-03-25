@@ -4,7 +4,7 @@
 // ========================================
 
 // 載入環境變數
-require('dotenv').config({ path: '../../.env' });
+require('dotenv').config({ path: '.env' });
 
 const api = require('./api');
 const utils = require('./utils');
