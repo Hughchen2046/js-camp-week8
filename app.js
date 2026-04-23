@@ -88,7 +88,7 @@ async function main() {
     const orders = await orderService.getOrders();
     console.log(`共有 ${orders.length} 筆訂單`);
     if (orders.length > 0) {
-      orderService.displayOrders(orders.slice(0, 2)); // 只顯示前 2 筆
+      orderService.displayOrders(orders.slice(0, 3)); // 只顯示前 2 筆
     }
 
     // 10. 篩選未付款訂單
